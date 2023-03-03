@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlaMundo", "OlaMundo\OlaMundo.csproj", "{6802C514-7AFA-4741-A669-B9F4F7B6B085}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argumentos", "Argumentos\Argumentos.csproj", "{F5DFDCE7-BA6B-483C-BCEB-D90A9F5141F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{6802C514-7AFA-4741-A669-B9F4F7B6B085}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6802C514-7AFA-4741-A669-B9F4F7B6B085}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6802C514-7AFA-4741-A669-B9F4F7B6B085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5DFDCE7-BA6B-483C-BCEB-D90A9F5141F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5DFDCE7-BA6B-483C-BCEB-D90A9F5141F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5DFDCE7-BA6B-483C-BCEB-D90A9F5141F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5DFDCE7-BA6B-483C-BCEB-D90A9F5141F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
