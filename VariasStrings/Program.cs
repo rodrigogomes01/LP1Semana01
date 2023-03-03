@@ -7,6 +7,11 @@ namespace VariasStrings
 
         static void Main(string[] args)
         {
+
+            ///Added new variables
+            double xx = 0.12345;
+            int ii = 18;
+
             /// String variables
             string normal = "\tThis is a normal string\n";
             string verbatim = @"This is a more special string""That allows this"" To be more special";
@@ -35,6 +40,12 @@ namespace VariasStrings
             Console.WriteLine(interpolation);
             Console.WriteLine(interpolation2);
             Console.WriteLine(string_form);
+
+            ///Print the new variables added
+            Console.WriteLine($"xx={xx:f2}");
+            Console.WriteLine($"xx={xx:p1}");
+            Console.WriteLine(ii.ToString("x"));
+            Console.WriteLine(ii.ToString("C", CultureInfo.CurrentCulture));
         }
     }
 }
