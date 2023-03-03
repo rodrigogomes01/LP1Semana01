@@ -14,6 +14,27 @@ namespace VariasStrings
             ///Print the string variables
             Console.WriteLine(normal);
             Console.WriteLine(verbatim);
+
+            int x = 10;
+            int y = 20;
+
+            ///Concentration of strings
+            string var_conc = "a" + 2;
+            string var_conc2 = "abc" + x;
+
+            ///Interpolation of strings
+            string interpolation = $"The x value is: {x}";;
+            string interpolation2 = $"x + y is equal to: {x + y}";
+
+            ///String format
+            string string_form = String.Format("Y is {1}, X is {0}", x, y);
+
+            ///Print new strings
+            Console.WriteLine(var_conc);
+            Console.WriteLine(var_conc2);
+            Console.WriteLine(interpolation);
+            Console.WriteLine(interpolation2);
+            Console.WriteLine(string_form);
         }
     }
 }
