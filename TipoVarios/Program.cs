@@ -15,6 +15,16 @@ namespace TipoVarios
             Console.WriteLine(number1);
             Console.WriteLine(number2);
             Console.WriteLine(number3);
+
+            // Char variables
+            char north = '\u00A9';
+            char south = '\u00A3';
+            char east = '\u0EAF';
+
+            // Print the char variables
+            Console.WriteLine(north);
+            Console.WriteLine(south);
+            Console.WriteLine(east);
         }
     }
 }
