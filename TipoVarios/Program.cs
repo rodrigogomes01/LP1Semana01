@@ -35,6 +35,14 @@ namespace TipoVarios
             Console.WriteLine(Numberfloat);
             Console.WriteLine(Numberdouble);
             Console.WriteLine(Numberdecimal);
+
+            /// Boolean variables
+            bool True = true;
+            bool False = false;
+
+            /// Print the boolean variables
+            Console.WriteLine(True);
+            Console.WriteLine(False);
         }
     }
 }
